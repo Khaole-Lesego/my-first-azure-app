@@ -1,25 +1,32 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/my-first-azure-app/MyFirstApp/MyFirstApp.csproj": {}
+    "C:\\Users\\leseg\\source\\repos\\my-first-azure-app\\MyFirstApp.csproj": {}
   },
   "projects": {
-    "/workspaces/my-first-azure-app/MyFirstApp/MyFirstApp.csproj": {
+    "C:\\Users\\leseg\\source\\repos\\my-first-azure-app\\MyFirstApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/my-first-azure-app/MyFirstApp/MyFirstApp.csproj",
+        "projectUniqueName": "C:\\Users\\leseg\\source\\repos\\my-first-azure-app\\MyFirstApp.csproj",
         "projectName": "MyFirstApp",
-        "projectPath": "/workspaces/my-first-azure-app/MyFirstApp/MyFirstApp.csproj",
-        "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/my-first-azure-app/MyFirstApp/obj/",
+        "projectPath": "C:\\Users\\leseg\\source\\repos\\my-first-azure-app\\MyFirstApp.csproj",
+        "packagesPath": "C:\\Users\\leseg\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\leseg\\source\\repos\\my-first-azure-app\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "/home/codespace/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\leseg\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -62,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/10.0.100/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.103/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.AspNetCore": "(,10.0.32767]",
             "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",
